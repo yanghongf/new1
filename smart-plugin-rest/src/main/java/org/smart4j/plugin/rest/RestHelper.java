@@ -13,11 +13,7 @@ import org.apache.cxf.jaxrs.provider.jsonp.JsonpInInterceptor;
 import org.apache.cxf.jaxrs.provider.jsonp.JsonpPostStreamInterceptor;
 import org.apache.cxf.jaxrs.provider.jsonp.JsonpPreStreamInterceptor;
 import org.apache.cxf.message.Message;
-import org.apache.cxf.rs.security.cors.CrossOriginResourceSharingFilter;
-import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
-import org.smart4j.framework.core.ConfigHelper;
-import org.smart4j.framework.ioc.BeanHelper;
-import org.smart4j.framework.util.StringUtil;
+
 
 public class RestHelper {
 
